@@ -1,0 +1,38 @@
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: purple;
+  position: relative;
+  top: 100px;
+  left: 150px;
+  animation-name: cambio-color;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+} 
+
+@keyframes cambio-color{
+  0% {
+    background-color: purple;
+    position: relative;
+    top: 200px;
+    left: 500px;  
+  }
+  25% {
+    background-color: pink;
+    position: relative;
+    top:100px;
+    left: 50px;
+  }
+  50% {
+    background-color: orange;
+    position: relative;
+    
+  }
+  75% {
+    background-color: yellow;
+  }
+  100% {
+    background-color: blue;
+  }
+}
